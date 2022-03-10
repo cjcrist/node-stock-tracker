@@ -1,0 +1,7 @@
+---
+tracker:
+  endpoint: https://www.alphavantage.co/query
+  query:
+    - function: TIME_SERIES_DAILY
+      symbol: RIVN
+      outputsize: compact

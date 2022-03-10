@@ -1,0 +1,19 @@
+{
+  "name": "stocktracker",
+  "description": "A simple stock tracking app to retrieve information on stock symbols.",
+  "version": "1.0.0",
+  "main": "stocktracker.js",
+  "files": [
+    "stocktracker.js",
+    "lib/"
+  ],
+  "license": "Python-2.0",
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "dotenv-yaml": "^0.1.4"
+  }
+}

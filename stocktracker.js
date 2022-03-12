@@ -9,6 +9,11 @@ const fs = require('fs');
 const assert = require('assert').strict;
 const stock = require('./lib/stock');
 
+// Loads env from .env file
+if ('./env') {
+    require('dotenv').config()
+}
+
 const { ArgumentParser } = require('argparse');
 const { version } = require('./package.json');
 
